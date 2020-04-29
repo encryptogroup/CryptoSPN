@@ -1,0 +1,7 @@
+more-itertools>=8.2.0
+numpy>=1.18.3
+PyQt5>=5.9.2
+scikit-learn>=0.22.2.post1
+scipy>=1.2.0
+sklearn>=0.0
+spflow>=0.0.40
