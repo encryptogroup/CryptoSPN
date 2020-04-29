@@ -15,7 +15,7 @@ This code requires all [SPFlow](https://github.com/SPFlow/SPFlow) and [ABY](http
 ### Installation
 1. Install [SPFlow](https://github.com/SPFlow/SPFlow) and download *and build* [ABY](https://github.com/encryptogroup/ABY).
 2. Enter the paths to your CryptoSPN and [ABY](https://github.com/encryptogroup/ABY) instances in `CryptoSPN/Constants.py`
-3. In your CryptoSPN directory, add executable permission to the compile script: `chmod +x compiling/compile.sh`
+3. In your CryptoSPN directory, add executable permission to the compile script: `chmod +x CryptoSPN/compiling/compile.sh`
 
 ### Usage
 1. Call `spn_to_aby_file(spn)` on a SPFlow `spn` to create an ABY `.cpp` file. CryptoSPN also provides an interface to automatically compile your SPN into an ABY executable by calling `spn_to_aby_exec`. You can specify filenames, precision, and whether to obliviously select client RVs via an oblivious selection network.
