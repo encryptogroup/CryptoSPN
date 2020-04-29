@@ -44,7 +44,7 @@ spn_to_aby_file(spn, bitlen=32, filename="example.cpp", sel=Selection.OSELECTION
 # Don't forget to build ABY and to add your CryptoSPN and ABY directories to CryptoSPN/Constants.py. Alternatively, you
 # can pass them to spn_to_aby_exec via the aby_path and cryptospn_path parameters of spn_to_aby_exec.
 spn_to_aby_exec(spn, bitlen=64, name="example", sel=Selection.OSELECTION, aby_path="/path/to/ABY/",
-                cryptospn_path="/path/to/CryptoSPN/")
+                cryptospn_path="/path/to/CryptoSPN/CryptoSPN/")
 
 # Now, you can run the executable as client (-r 0) and server (-r 1) on different terminals
 # with -b 32 or -b 64 bit precision on the first -i lines of client RVs supplied like "V0;V1;V2;V3;V4" in file -f:
